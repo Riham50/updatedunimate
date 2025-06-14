@@ -38,6 +38,7 @@ UniMate is an all-in-one mobile application designed to enhance the digital camp
 
 
 ## 📂 Folder Structure
+
 lib/
 ├── auth/
 ├── models/
