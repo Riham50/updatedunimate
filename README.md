@@ -1,19 +1,14 @@
-# UniMate – Smart Campus Companion 📱🎓
+# UniMate – Smart Campus Companion 🎓
 
 UniMate is an all-in-one mobile application designed to enhance the digital campus experience for university students. Built using **Flutter** (frontend) and **Node.js + Firebase** (backend), UniMate helps students stay organized, informed, and connected.
 
----
 
-## 🚀 Features
+## Features
 
 ### 🗓️ Schedule Manager
 - Add, view, and edit weekly course schedules (Monday–Saturday)
 - Organized by day and period
 - Sticky headers, smooth transitions, and highlight for today's classes
-
-### ✅ Attendance Tracker
-- QR Code-based attendance system
-- Automatic absence detection if students miss scans during scheduled time
 
 ### 🧾 Assignment Manager
 - Upload and view assignments with due dates
@@ -27,16 +22,12 @@ UniMate is an all-in-one mobile application designed to enhance the digital camp
 - Search and browse course descriptions and downloadable PDF materials
 - Organized and searchable course list
 
-### 🔔 Notification Center
-- Receive notifications for assignments, events, due dates, and updates
 
 ### 🧭 Lost and Found System
 - Post lost or found items
-- Two sections: "Lost Items" and "Found Items" with photos and descriptions
+- Two sections: "Lost Items" and "Found Items" descriptions
 
----
 
-## 🛠️ Tech Stack
 
 | Layer       | Tech                          |
 |------------|-------------------------------|
@@ -45,11 +36,8 @@ UniMate is an all-in-one mobile application designed to enhance the digital camp
 | Database   | Firebase (Firestore + Storage) |
 | Auth       | Firebase Authentication        |
 
----
 
 ## 📂 Folder Structure
-
-```bash
 lib/
 ├── auth/
 ├── models/
