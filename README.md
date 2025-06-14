@@ -1,16 +1,58 @@
-# unimate
+# UniMate – Smart Campus Companion 📱🎓
 
-A new Flutter project.
+UniMate is an all-in-one mobile application designed to enhance the digital campus experience for university students. Built using **Flutter** (frontend) and **Node.js + Firebase** (backend), UniMate helps students stay organized, informed, and connected.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🗓️ Schedule Manager
+- Add, view, and edit weekly course schedules (Monday–Saturday)
+- Organized by day and period
+- Sticky headers, smooth transitions, and highlight for today's classes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✅ Attendance Tracker
+- QR Code-based attendance system
+- Automatic absence detection if students miss scans during scheduled time
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🧾 Assignment Manager
+- Upload and view assignments with due dates
+- Set reminders and get notifications
+
+### 🧑‍🎓 Digital Student ID
+- View your unique university ID digitally
+- Fetched directly from the database
+
+### 📚 Course Materials
+- Search and browse course descriptions and downloadable PDF materials
+- Organized and searchable course list
+
+### 🔔 Notification Center
+- Receive notifications for assignments, events, due dates, and updates
+
+### 🧭 Lost and Found System
+- Post lost or found items
+- Two sections: "Lost Items" and "Found Items" with photos and descriptions
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Tech                          |
+|------------|-------------------------------|
+| Frontend   | Flutter                        |
+| Backend    | Node.js                        |
+| Database   | Firebase (Firestore + Storage) |
+| Auth       | Firebase Authentication        |
+
+---
+
+## 📂 Folder Structure
+
+```bash
+lib/
+├── auth/
+├── models/
+├── screens/
+├── services/
+├── widgets/
